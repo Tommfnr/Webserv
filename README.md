@@ -1,5 +1,9 @@
 _This project has been created as part of the 42 curriculum by tfournie, abonifac, rshin._
 
+> 📌 **Copy of our team repository** ([mangojus/webserv](https://github.com/mangojus/webserv)), with the full commit history.
+>
+> **My part (tfournie):** HTTP request parsing and handling, client handling (paths, error pages, autoindex, redirects, uploads with POST, query strings) and security tests. I also wrote [Webserv42_tester](https://github.com/Tommfnr/Webserv42_tester), a 100+ test suite for the project.
+
 # webserv
 
 An HTTP/1.1 web server written from scratch in **C++98**, modeled on nginx: non-blocking I/O with a single `poll()` loop, virtual hosts, an nginx-style configuration file, static files, uploads, and CGI.
